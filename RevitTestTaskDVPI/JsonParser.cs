@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,9 +12,9 @@ namespace RevitTestTaskDVPI
 {
     internal class JsonParser
     {
-        private readonly string path = $"C://Users//Nikik0//Desktop//infoStored.json";
+        private readonly string path = $"D://Revit 2022 plugin custom//RevitTestTaskDVPI//RevitTestTaskDVPI//bin//Debug//infoStored.json";
         public JsonInfo ReadJson() //парсер для запоминания введных значений текстовых полей на форме
-        {
+        {   
             try
             {
                 string jsonFromFile;
