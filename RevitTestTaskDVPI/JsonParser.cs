@@ -72,7 +72,9 @@ namespace RevitTestTaskDVPI
     class JsonInfo
     {
         public string FirstBox { get; set; }
-
+        /// <summary>
+        /// some changes
+        /// </summary>
         public string SecondBox { get; set; }
 
     }
