@@ -73,7 +73,7 @@ namespace RevitTestTaskDVPI
     {
         public string FirstBox { get; set; }
         /// <summary>
-        /// some changesвыв
+        /// some changesвывddd
         /// </summary>
         public string SecondBox { get; set; }
 
